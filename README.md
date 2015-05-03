@@ -30,10 +30,10 @@ Raven supports one deployment currently:
 
 ##Setup
 1. Clone the repo
-2. '''cd raven'''
-3. ''''npm install''''
+2. ```cd raven```
+3. ```npm install```
 4. Launch on heroku (you get a tutorial when you create heroku)
-5. Setup the following env variables: ''''heroku config:set ENVVAR=blah''''
+5. Setup the following env variables: ```heroku config:set ENVVAR=blah```
 	1. HEROKU_URL
 	2. ADAPTER
 	3. HUBOT_SLACK_TOKEN
@@ -43,7 +43,7 @@ Raven supports one deployment currently:
 	7. HUBOT_TEAMSPEAK_PASSWORD
 	8. HUBOT_TEAMSPEAK_VOICE_PORT
 	9. HUBOT_TEAMSPEAK_OUT_ROOM
-	10. FORECAST_IO_KEY - ''''https://developer.forecast.io/''''
+	10. FORECAST_IO_KEY - ```https://developer.forecast.io```
 	11. GOOGLE_API_KEY & HUBOT_GOOGLE_API_KEY
 		1. https://console.developers.google.com/project
 		2. create a new project
@@ -59,6 +59,6 @@ Raven supports one deployment currently:
 
 ##Commands
 Here is a list of commands that you can run:
-* mudkip teamspeak
-* mudkip weather me <location>
-* mudkip ping
+* ```mudkip teamspeak```
+* ```mudkip weather me <location>```
+* ```mudkip ping```

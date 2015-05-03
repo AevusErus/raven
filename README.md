@@ -59,6 +59,49 @@ Raven supports one deployment currently:
 
 ##Commands
 Here is a list of commands that you can run:
-* ```mudkip teamspeak```
-* ```mudkip weather me <location>```
-* ```mudkip ping```
+* (zombie) - Call in a zombie
+* <name>++
+* <name>--
+* GET http://<url>/mudkip/scores[?name=<name>][&direction=<top|botton>][&limit=<10>]
+* frick - Let Zach Holman tell you what word to use instead of "frick"
+* fu <object> - tells <object> to f off with random response from FOASS
+* mudkip adapter - Reply with the adapter
+* mudkip animate me <query> - The same thing as `image me`, except adds a few parameters to try to return an animated GIF instead.
+* mudkip bottom <amount>
+* mudkip echo <text> - Reply back with <text>
+* mudkip fml - A random message from fmylife.com
+* mudkip forecast me <address, zip code, etc> - Returns the 5 day forecast for the location.
+* mudkip furry me <tags> [rating] - Retrieves an image with the provided tags with an optional rating.
+* mudkip google me <query> - Googles <query> & returns 1st result's URL
+* mudkip help - Displays all of the help commands that mudkip knows about.
+* mudkip help <query> - Displays all help commands that match <query>.
+* mudkip image me <query> - The Original. Queries Google Images for <query> and returns a random top result.
+* mudkip mustache me <query> - Searches Google Images for the specified query and mustaches it.
+* mudkip mustache me <url> - Adds a mustache to the specified URL.
+* mudkip ping - Reply with pong
+* mudkip pug bomb N - get N pugs
+* mudkip pug me - Receive a pug
+* mudkip quote add <quote> - Saves the quote
+* mudkip quote find <string> - Lists all quotes that contain the search string
+* mudkip quote list - Lists all quotes
+* mudkip quote random - Reads a random quote
+* mudkip quote read # - Reads the quote stored
+* mudkip remind me in <minutes> to <action> - Stores reminder
+* mudkip remind me to <action> in <minutes> - Stores reminder.
+* mudkip score <name>
+* mudkip teamspeak - <replies with a comma seperated list of all connected users>
+* mudkip teamspeak - <replies with a comma seperated list of all connected users>
+* mudkip the rules - Make sure mudkip still knows the rules.
+* mudkip time - Reply with current time
+* mudkip top <amount>
+* mudkip translate me <phrase> - Searches for a translation for the <phrase> and then prints that bad boy out.
+* mudkip translate me from <source> into <target> <phrase> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional
+* mudkip weather location <location> - saves this location as your location, allowing you to use the other commands without any info
+* mudkip weather me <address, zip code, etc> - Returns the current temperature.
+* mudkip what time is it in <address, zip code, etc> - Returns the current time.
+* mudkip youtube me <query> - Searches YouTube for the query and returns the video embed link.
+* stripped down version of https://github.com/dtaniwaki/mudkip-privilege/blob/master/src/privilege.coffee
+* what the fuck is that poop - responds with a random WITS image
+* what the hell is this crap - responds with a random WITS image
+* wtf is this shit - responds with a random WITS image
+* zen - Display GitHub zen message

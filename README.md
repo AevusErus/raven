@@ -30,7 +30,9 @@ Raven supports one deployment currently:
 
 ##Setup
 1. Clone the repo
-2. '''cd raven'''
+2. '''
+cd raven
+'''
 3. ''''npm install''''
 4. Launch on heroku (you get a tutorial when you create heroku)
 5. Setup the following env variables: ''''heroku config:set ENVVAR=blah''''

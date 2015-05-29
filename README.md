@@ -27,6 +27,10 @@ Raven supports one deployment currently:
 ## Features Wanted
 
 * Room archiving (to get around Slack/HipChat 10k history limit)
+* Trigger warnings
+* DKP tracker
+* Specific searches from google and youtube (i.e. return top result instead of random)
+* WarcraftLogs integrations
 
 ##Setup
 1. Clone the repo
